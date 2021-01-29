@@ -34,29 +34,23 @@ none as of yet but don't fret as there will be.
 ## GIT HUB PAGES 
 - (https://briansturgis.github.io/JanWeek3Project/)
 
+```js
 ## SPECS
 
-Test: "It should create an empty array called numberRange"
 
-Expect:(numberRange).toEqual([]);
+Test: " "
+Expect:().toEqual();
 
-Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "3" in it"
-Expect:(numberRange).toEqual(["3"]);
+Test: " "
+Expect:().toEqual();
 
-Test: "if a number range from the number given to zero is "3" then three will br replaced with "Won't you be my neighbor?"
-Expect:(numberRange).toEqual(["Won't you be my neighbor?"]);
+Test: " "
+Expect:().toEqual();
 
-Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "2" in it"
-Expect:(numberRange).toEqual(["2"]);
+Test: " "
+Expect:().toEqual();
+```
 
-Test: "if a number range from the number given to zero is "3" then three will br replaced with "boop"
-Expect:(numberRange).toEqual(["boop"]);
-
-Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "1" in it"
-Expect:(numberRange).toEqual(["1"]);
-
-Test: "if a number range from the number given to zero is "1" then three will br replaced with "beep"
-Expect:(numberRange).toEqual(["beep"]);
 
 ## Stretch goals
 - Images, styling, and custom animations used in UI.
