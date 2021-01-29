@@ -38,11 +38,11 @@ none as of yet but don't fret as there will be.
 ## SPECS
 
 
-Test: "this will create an Order object "
-Expect:(Order).toEqual(name,address,phoneNUmber,zip);
+Test: "this test should create an Order object "
+Expect:(Order).toEqual{name,address,phoneNUmber,zip};
 
-Test: " "
-Expect:().toEqual();
+Test: "this test should should create a total cost of the variables passed to it"
+Expect:(totalCost(toppings,ets)).toEqual(1,1);
 
 Test: " "
 Expect:().toEqual();
