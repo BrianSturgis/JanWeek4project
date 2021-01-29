@@ -38,8 +38,8 @@ none as of yet but don't fret as there will be.
 ## SPECS
 
 
-Test: " "
-Expect:().toEqual();
+Test: "this will create an Order object "
+Expect:(Order).toEqual(name,address,phoneNUmber,zip);
 
 Test: " "
 Expect:().toEqual();
