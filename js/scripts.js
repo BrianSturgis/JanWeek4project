@@ -1,6 +1,7 @@
 // business logic for order
 function Order() {
   this.pizzas = {};
+  this.address = [];
   
 }
 
@@ -20,6 +21,8 @@ function Address (name,address,phoneNumber) {
   this.address = address;
   this.phoneNumber = phoneNumber;
 }
+
+
 
 
 
