@@ -11,10 +11,12 @@
 
 .address{
   display: none;
+  grid-template-columns: minmax(150px, 50%) 1fr;
 }
 
 .toppings{
   display: none;
+  grid-template-columns: minmax(150px, 50%) 1fr;
 }
 
 /* .menuButton{
