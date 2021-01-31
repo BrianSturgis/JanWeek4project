@@ -5,13 +5,20 @@
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Jan 22nd, v1.0 2021</p>
-<p align="center">PIZZA PIZZA</p>
+<p align="center">Pizza Parlor</p>
 
 ## Application Description
-
+This is a weekly project 
+This is a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
 
 ## The projects objectives were to complete the following (MVP)
-
+- Allow the user to choose toppings and size for the pizza they'd like to order.
+- Create a pizza object constructor with properties for toppings and size.
+- Create a prototype method for the cost of a pizza depending on the selections chosen. Use your own formula for this.
+- Style the application with CSS and images.
+- Allow users to order more than one pizza with different toppings.
+- Display the list of pizzas ordered as links that can be clicked for details.
+- Offer a delivery option that then requires address information.
 
 ## Known Bugs
 none as of yet but don't fret as there will be.
@@ -42,10 +49,10 @@ Test: "this test should create an Order object "
 Expect:(Order).toEqual{name,address,phoneNUmber,zip};
 
 Test: "this test should should create a total cost of the variables passed to it"
-Expect:(totalCost(toppings,ets)).toEqual(1,1);
+Expect:(totalCost(prices)).toEqual(35);
 
-Test: " "
-Expect:().toEqual();
+Test: "this should apply a %18 charge to this.price"
+Expect:(this.price).toEqual(this.price /.18);
 
 Test: " "
 Expect:().toEqual();
