@@ -45,7 +45,7 @@ none as of yet but don't fret as there will be.
 ## SPECS
 
 Test: "this test should create an Order object "
-Expect:(Order).toEqual{name,address,phoneNUmber,zip};
+Expect:(Order).toEqual{this.pizzas{}, this.};
 
 Test: "this test should should create a total cost of the variables passed to it"
 Expect:(totalCost(prices)).toEqual(35);

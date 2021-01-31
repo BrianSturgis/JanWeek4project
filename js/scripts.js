@@ -1,9 +1,19 @@
-// business logic
-function Order(name,address,phoneNumber) {
+// business logic for order
+function Order() {
   this.pizzas = {};
-  this.address = {};
-  this.currentId = 0;
+  
+}
+// business logic for pizz
+function Pizza (size,toppings,drink) {
+  this.size = size;
+  this.toppings = toppings;
+  this.drink = drink;
 }
 
 
 
+
+let newOrder = new Order();
+let newPizza = new Pizza();
+console.log(newOrder);
+console.log(newPizza);
