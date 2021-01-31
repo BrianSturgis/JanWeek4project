@@ -19,10 +19,6 @@ function Pizza (size,toppings,drink) {
 
 
 
-
-
-
-
 let newOrder = new Order();
 let newPizza01 = new Pizza(12,14,12);
 let newPizza02 = new Pizza(13,14,13);
