@@ -4,3 +4,8 @@
   background: blueviolet;
 }
 
+.indexButtons{
+  padding-top: 25%;
+  display: grid;
+  place-items: center;
+}
