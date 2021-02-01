@@ -30,25 +30,38 @@ function Address (name,address,phoneNumber) {
   this.phoneNumber = phoneNumber;
 }
 
+
+$("input:checkbox[name=toppings-list]:checked")
+
+
+
+
+
+
+
+
+
+
+
 // ui logic
-$(document).ready(function() {
-  $("form#new-contact").submit(function(event) {
-    event.preventDefault();
-    $("#responses").show();
-    $("input:checkbox[name=toppings-list]:checked").each(function() {
-      const pizzaToppings = $(this).val();
-      $('#responses').append(pizzaToppings + "<br>");
-    });
-    $("#responses").show();
-    $('#toppings').hide();
-    $("input:checkbox[name=toppings]:checked").each(function(){
-      const pizzaToppings = $(this).val();
-      $('#cost').append(pizzaToppings + "<br>");
-      console.log(pizzaToppings);
-    });
-    $('#toppings').hide();
-  });
-});
+// $(document).ready(function() {
+//   $("form#new-contact").submit(function(event) {
+//     event.preventDefault();
+//     $("#responses").show();
+//     $("input:checkbox[name=toppings-list]:checked").each(function() {
+//       const pizzaToppings = $(this).val();
+//       $('#responses').append(pizzaToppings + "<br>");
+//     });
+//     $("#responses").show();
+//     $('#toppings').hide();
+//     $("input:checkbox[name=toppings]:checked").each(function(){
+//       const pizzaToppings = $(this).val();
+//       $('#cost').append(pizzaToppings + "<br>");
+//       console.log(pizzaToppings);
+//     });
+//     $('#toppings').hide();
+//   });
+// });
 
 
   // let inputtedSize =$();
