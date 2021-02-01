@@ -57,34 +57,51 @@
         <button type="submit" class="nes-btn is-primary">submit address</button>
       </form>
     </div>
-    <div class="toppings" contenteditable>
+    <div class="toppings-list" >
       <form id="new-contact">
-        <div class="form-group">
-          <label>
-            <input type="checkbox" name="toppings" class="nes-checkbox" value= "2" checked />
-            <span>cheese</span>
-          </label>
+        <div class="question">
+          <label for="add1">CHOOSE A PIE</label>
+          <select class="form-control" id="question1">
+            <option value="0">*</option>
+            <option value="5">Small</option> 
+            <option value="10">Medium</option>
+            <option value="15">Large</option>
+            <option value="20">Extra Large</option>
+          </select>
         </div>
-        <label>
-          <input type="checkbox" name="toppings" class="nes-checkbox" value= "3" checked />
+        <div class="form-group">
+          <input type="checkbox" name="toppings" value="0"> 
+          <span>no cheese</span>
+          <input type="checkbox" name="toppings" value= "2">
+          <span>cheese</span>
+          <input type="checkbox" name="toppings" value= "3">
           <span>pepperoni</span>
-        </label>
-        <label>
-          <input type="checkbox" name="toppings" class="nes-checkbox" value= "4" checked />
+          <input type="checkbox" name="toppings" value= "4">
           <span>artichoke</span>
-        </label>
-        <label>
-          <input type="checkbox" name="toppings" class="nes-checkbox" value= "5" checked />
+          <input type="checkbox" name="toppings"  value= "5">
           <span>anchovy</span>
-        </label>
-        <label>
-          <input type="checkbox" name="toppings" class="nes-checkbox" value= "6" checked />
+          <input type="checkbox" name="toppings" " value= "2">
           <span>Pineapple</span>
-        </label>
+        </div>
+        <div class="form-group">
+          <input type="checkbox" name="toppings"  value= "4">
+          <span>bacon</span>
+          <input type="checkbox" name="toppings"  value= "3">
+          <span>pepperoni</span>
+          <input type="checkbox" name="toppings"  value= "4">
+          <span>artichoke</span>
+          <input type="checkbox" name="toppings"  value= "5">
+          <span>anchovy</span>
+          <input type="checkbox" name="toppings"  value= "6">
+          <span>Pineapple</span>
+        </div>
         <button type="submit" name="toppings" class="nes-btn is-primary">add toppings to pie</button>
       </form>
       <span id="responses">
         <p><b>You ordered the following: </b></p>
+      </span>
+      <span id="cost">
+        <p><b>Your Total is $</b></p>
       </span>
     </div>
   </div>

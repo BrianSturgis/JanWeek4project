@@ -22,6 +22,12 @@
 #responses {
   display: none;
 }
+
+#cost {
+  display: none;
+}
+
+
 /* .menuButton{
   display: none;
 } */

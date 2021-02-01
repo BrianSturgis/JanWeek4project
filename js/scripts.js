@@ -35,14 +35,20 @@ $(document).ready(function() {
   $("form#new-contact").submit(function(event) {
     event.preventDefault();
     $("#responses").show();
-    $("input:checkbox[name=toppings]:checked").each(function() {
+    $("input:checkbox[name=toppings-list]:checked").each(function() {
       const pizzaToppings = $(this).val();
       $('#responses').append(pizzaToppings + "<br>");
     });
-    $('#new-contact').hide();
+    $("#responses").show();
+    $('#toppings').hide();
+    $("input:checkbox[name=toppings]:checked").each(function(){
+      const pizzaToppings = $(this).val();
+      $('#cost').append(pizzaToppings + "<br>");
+      console.log(pizzaToppings);
+    });
+    $('#toppings').hide();
   });
 });
-
 
 
   // let inputtedSize =$();
