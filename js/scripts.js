@@ -34,8 +34,10 @@ function Address (name,address,phoneNumber) {
 
 
 
-let address = new Address ();
-console.log(address);
+
+
+// let address = new Address ();
+// console.log(address);
 // console.log(inputtedToppings);
 // let inputtedSize = $();
 // let inputtedToppings =$();

@@ -32,68 +32,53 @@
         </div>
       </div>
     </div>
-    <div class="address" contenteditable>
-      <form id="new-contact">
-        <div class="form-group">
-          <label for="new-first-name">First Name</label>
-          <input type="text"  class="nes-textarea" id="new-first-name">
+    <div class="container">
+      <div id="background"
+        <div class="jumbotron">
+          <h1>MARIO PIZZA</h1>
         </div>
-        <div class="form-group">
-          <label for="new-last-name">Last Name</label>
-          <input type="text"  class="nes-textarea"" id="new-last-name">
-        </div>
-        <div class="form-group">
-          <label for="new-phone-number">Phone Number</label>
-          <input type="text"  class="nes-textarea" id="new-phone-number">
-        </div>
-        <div class="form-group">
-          <label for="new-email-address">Email Address</label>
-          <input type="text"  class="nes-textarea" id="new-email-address">
-        </div>
-        <div class="form-group">
-          <label for="new-street">Street address</label>
-          <input type="text"  class="nes-textarea" id="new-street">
-        </div>
-        <button type="submit" class="nes-btn is-primary">submit address</button>
-      </form>
+        <form id="questions">
+          <div class="question">
+            <label for="add1">CHOOSE A PIE</label>
+            <select class="form-control" id="question1">
+              <option value="0">*</option>
+              <option value="1">Cheese</option> 
+              <option value="1">Pepperoni</option>
+              <option value="1">Vegan Pie</option>
+              <option value="1">Gluten free</option>
+            </select>
+          </div>
+          
+          <div class="question">
+            <label for="add3">TOPPINGs</label>
+            <select name="q1" class="form-control" id="question3">
+              <option value="0">*</option>
+              <option value="4">Artichoke</option>
+              <option value="4">Anchovy</option>
+              <option value="2">Mushroom</option>
+              <option value="2">Red Pepper</option>
+              <option value="3">Canadian Bacon</option>
+            </select>
+          </div>
+          <div class="question">
+            <label for="add4">SIZE</label>
+            <select name="q2"class="form-control" id="question4">
+              <option value="0">we do sell just the toppings</option>
+              <option value="20">Small</option>
+              <option value="25">Medium</option>
+              <option value="30">Large</option>
+              <option value="35">Extra Large</option>
+            </select> 
+          </div>
+          <button type="submit" class="btn">CLICK HERE </button>
+          <div class="container">
+              <div class="price" id="message-price">
+                <p>
+                  Your pizza price is $
+                </p>
+              </div>
+          </div> 
+        </form>
+      </div>
     </div>
-    <div class="toppings-list" >
-      <form id="new-contact">
-        <div class="question">
-          <label for="add1">CHOOSE A PIE</label>
-          <select class="form-control" id="question1">
-            <option value="0">*</option>
-            <option value="5">Small</option> 
-            <option value="10">Medium</option>
-            <option value="15">Large</option>
-            <option value="20">Extra Large</option>
-          </select>
-        </div>
-        <div class="question">
-          <label for="add1">CHEESE</label>
-          <select class="form-control" id="question1">
-            <option value="0">*</option>
-            <option value="1">NO CHEESE</option> 
-            <option value="2">CHEESE</option>
-            <option value="5">XTRA CHEESE</option>
-            <option value="10">GOAT CHEESE</option>
-          </select>
-        </div>
-
-
-
-
-
-        
-        <button type="submit" name="toppings" class="nes-btn is-primary">add toppings to pie</button>
-      </form>
-      <span id="responses">
-        <p><b>You ordered the following: </b></p>
-      </span>
-      <span id="cost">
-        <p><b>Your Total is $</b></p>
-      </span>
-    </div>
-  </div>
-</body>
-</html>
+  </body></html>

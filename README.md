@@ -8,6 +8,11 @@
 <p align="center">Pizza Parlor</p>
 
 ## Application Description
+
+IN ITS CURRENT STATE THIS PROGRAM IS NOT FULLY FUNCTIONAL
+the logic is in place but i am have a hard time collecting inputs using checkboxes and i would rather use those to select toppings.   This project is by no means in any state of completion.
+
+
 This is a weekly project 
 This is a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
 
@@ -21,7 +26,8 @@ This is a website for a pizza company where a user can choose one or more indivi
 - Offer a delivery option that then requires address information.
 
 ## Known Bugs
-none as of yet but don't fret as there will be.
+- html and js files names "test" in project until completion
+- app is not functional on the front end but the logic has obtained all of its MVP goals
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWee4Project)
