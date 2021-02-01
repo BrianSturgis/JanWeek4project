@@ -31,11 +31,25 @@ function Address (name,address,phoneNumber) {
 }
 
 
-$("input:checkbox[name=toppings-list]:checked")
 
 
 
+let address = new Address ();
+console.log(address);
+// console.log(inputtedToppings);
+// let inputtedSize = $();
+// let inputtedToppings =$();
+// let inputtedDrink =$();
+// let inputtedTotalPrice =$();
+// let inputtedName =$();
+// let inputtedAddress =$();
+// let inputtedPhoneNumber =$();
+// console.log(inputtedSize);
+// $();
+// $();
 
+
+// $("input:checkbox[name=toppings]:checked");
 
 
 
