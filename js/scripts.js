@@ -31,18 +31,30 @@ function Address (name,address,phoneNumber) {
 }
 
 // ui logic
-$(document).ready(function(event) {
-  
-  let inputtedSize =$();
-  let inputtedToppings =$();
-  let inputtedDrink =$();
-  let inputtedTotalPrice =$();
-  let inputtedName =$();
-  let inputtedAddress =$();
-  let inputtedPhoneNumber =$();
-  console.log("hi");
-  $();
-  $();
+$(document).ready(function() {
+  $("form#new-contact").submit(function(event) {
+    event.preventDefault();
+    $("#responses").show();
+    $("input:checkbox[name=toppings]:checked").each(function() {
+      const pizzaToppings = $(this).val();
+      $('#responses').append(pizzaToppings + "<br>");
+    });
+    $('#new-contact').hide();
+  });
+});
+
+
+
+  // let inputtedSize =$();
+  // let inputtedToppings =$();
+  // let inputtedDrink =$();
+  // let inputtedTotalPrice =$();
+  // let inputtedName =$();
+  // let inputtedAddress =$();
+  // let inputtedPhoneNumber =$();
+  // console.log("hi");
+  // $();
+  // $();
   
 // let newOrder = new Order();
 // let address = new Address("brian", "15010 nw towle terrace", 666-4001);

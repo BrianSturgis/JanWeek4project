@@ -19,6 +19,9 @@
   grid-template-columns: minmax(150px, 50%) 1fr;
 }
 
+#responses {
+  display: none;
+}
 /* .menuButton{
   display: none;
 } */
