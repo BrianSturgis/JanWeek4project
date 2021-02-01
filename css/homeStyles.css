@@ -15,7 +15,7 @@
 }
 
 .toppings{
-  display: none;
+  /* display: none; */
   grid-template-columns: minmax(150px, 50%) 1fr;
 }
 
