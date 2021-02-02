@@ -27,28 +27,24 @@ Pizza.prototype.totalCost = function(){
 function Address (name,address,phoneNumber) {
   this.name = name;
   this.address = address;
-  this.phoneNumber = phoneNumber;
+  this.phoneNumber = phoneNumber; 
 }
 
 
 
-
-
-
-
-// let address = new Address ();
-// console.log(address);
-// console.log(inputtedToppings);
-// let inputtedSize = $();
-// let inputtedToppings =$();
-// let inputtedDrink =$();
-// let inputtedTotalPrice =$();
-// let inputtedName =$();
-// let inputtedAddress =$();
-// let inputtedPhoneNumber =$();
-// console.log(inputtedSize);
-// $();
-// $();
+let address = new Address ();
+console.log(address);
+console.log(inputtedToppings);
+let inputtedSize = $();
+let inputtedToppings =$();
+let inputtedDrink =$();
+let inputtedTotalPrice =$();
+let inputtedName =$();
+let inputtedAddress =$();
+let inputtedPhoneNumber =$();
+console.log(inputtedSize);
+$();
+$();
 
 
 // $("input:checkbox[name=toppings]:checked");

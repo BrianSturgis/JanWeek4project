@@ -16,19 +16,13 @@
       <div class="indexButtons" id="buttons">
         <a href="home.html" type="button" class="nes-btn is-primary" id="pizza">Pizza size</a>
         <div class="indexButtons" id="buttons">
-          <a href="home.html" type="button" class="nes-btn is-primary" id="toppings">Toppings</a>
+          <a href="delivery.html" type="button" class="nes-btn is-primary" id="toppings">Delivery</a>
         </div>
         <div class="indexButtons" id="buttons">
-          <a href="home.html" type="button" class="nes-btn is-primary" id="choose">Choose a pie</a>
+          <a href="map.html" type="button" class="nes-btn is-primary" id="delivery">Map</a>
         </div>
         <div class="indexButtons" id="buttons">
-          <a href="home.html" type="button" class="nes-btn is-primary" id="drink">Drinks</a>
-        </div>
-        <div class="indexButtons" id="buttons">
-          <a href="home.html" type="button" class="nes-btn is-primary" id="delivery">delivery</a>
-        </div>
-        <div class="indexButtons" id="buttons">
-          <a href="home.html" type="button" class="nes-btn is-primary" id="delivery">delivery</a>
+          <a href="index.html" type="button" class="nes-btn is-primary" id="delivery">intro page</a>
         </div>
       </div>
     </div>
@@ -48,33 +42,26 @@
               <option value="1">Gluten free</option>
             </select>
           </div>
-          
-          <div class="question">
-            <label for="add3">TOPPINGs</label>
-            <select name="q1" class="form-control" id="question3">
-              <option value="0">*</option>
-              <option value="4">Artichoke</option>
-              <option value="4">Anchovy</option>
-              <option value="2">Mushroom</option>
-              <option value="2">Red Pepper</option>
-              <option value="3">Canadian Bacon</option>
-            </select>
-          </div>
           <div class="question">
             <label for="add4">SIZE</label>
             <select name="q2"class="form-control" id="question4">
-              <option value="0">we do sell just the toppings</option>
+              <option value="0">pizza size</option>
               <option value="20">Small</option>
               <option value="25">Medium</option>
               <option value="30">Large</option>
               <option value="35">Extra Large</option>
             </select> 
           </div>
-          <button type="submit" class="btn">CLICK HERE </button>
+          <div class="form-group">
+            <p>choose a topping</p>
+            <input type="checkbox" name="work-transportation" value="bike">Pepperoni<br>
+            <input type="checkbox" name="work-transportation" value="car">Bacon<br>
+            <input type="checkbox" name="work-transportation" value="carpool">Pineapple<br>
+          <button type="submit" class="btn">CLICK HERE FOR TOTAL </button>
           <div class="container">
               <div class="price" id="message-price">
                 <p>
-                  Your pizza price is $
+                  Your pizza price is <span class="totalPrice"></span>
                 </p>
               </div>
           </div> 

@@ -19,8 +19,10 @@ Contact.prototype.fullName = function() {
 }
 
 
+
 let addressBook = new AddressBook();
 let contact = new Contact("Ada", "Lovelace", "503-555-0100");
 let contact2 = new Contact("Grace", "Hopper", "503-555-0199");
 addressBook.addContact(contact);
 addressBook.addContact(contact2);
+console.log(addressBook);
