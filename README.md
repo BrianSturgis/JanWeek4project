@@ -21,6 +21,7 @@ This is a website for a pizza company where a user can choose one or more indivi
 
 ## Known Bugs
 - button placement needs work and some of them are too big
+- css layout is a wireframe at this point.
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWee4Project)
@@ -90,6 +91,7 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 - w3schools
 - Wikipedia
 - Udemy.com
+- you tube
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
