@@ -32,19 +32,50 @@ function Address (name,address,phoneNumber) {
 
 
 
-let address = new Address ();
-console.log(address);
-console.log(inputtedToppings);
-let inputtedSize = $();
-let inputtedToppings =$();
-let inputtedDrink =$();
-let inputtedTotalPrice =$();
-let inputtedName =$();
-let inputtedAddress =$();
-let inputtedPhoneNumber =$();
-console.log(inputtedSize);
-$();
-$();
+$(document).ready(function() {
+  $("form#toppingSelections").submit(function(event) {
+    event.preventDefault();
+    $("#message-price").show();
+    $("input:checkbox[name=tops]:checked").each(function() {
+      const toppings = $(this).val();
+      $('##message-price').append(toppings + "<br>");
+    });
+    $('#message-price').hide();
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let address = new Address ();
+// console.log(address);
+// console.log(toppings);
+// let inputtedSize = $();
+// let inputtedToppings =$();
+// let inputtedDrink =$();
+// let inputtedTotalPrice =$();
+// let inputtedName =$();
+// let inputtedAddress =$();
+// let inputtedPhoneNumber =$();
+// console.log(inputtedSize);
+// $();
+// $();
 
 
 // $("input:checkbox[name=toppings]:checked");

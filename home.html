@@ -12,7 +12,7 @@
 </head>
 <body>
   <div class="parent">
-    <div class="menuButton" contenteditable>
+    <div class="menuButton">
       <div class="indexButtons" id="buttons">
         <a href="home.html" type="button" class="nes-btn is-primary" id="pizza">Pizza size</a>
         <div class="indexButtons" id="buttons">
@@ -52,11 +52,13 @@
               <option value="35">Extra Large</option>
             </select> 
           </div>
+          <form id="toppingSelections" name="tops"></form>
           <div class="form-group">
             <p>choose a topping</p>
-            <input type="checkbox" name="work-transportation" value="bike">Pepperoni<br>
-            <input type="checkbox" name="work-transportation" value="car">Bacon<br>
-            <input type="checkbox" name="work-transportation" value="carpool">Pineapple<br>
+            <input type="checkbox" name="tops" value="bike">Pepperoni<br>
+            <input type="checkbox" name="tops" value="car">Bacon<br>
+            <input type="checkbox" name="tops" value="carpool">Pineapple<br>
+          </form>
           <button type="submit" class="btn">CLICK HERE FOR TOTAL </button>
           <div class="container">
               <div class="price" id="message-price">
