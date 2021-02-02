@@ -42,7 +42,6 @@ This is a website for a pizza company where a user can choose one or more indivi
 
 ```js
 ## SPECS
-
 Describe: Pizza();
 Test: "This will create an instance of Pizza "
 Expect:(newPizza).toEqual=new PizzaOrder("Brian","large"); Expect: newPizza.name.toEqual("Brian")
