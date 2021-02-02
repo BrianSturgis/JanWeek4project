@@ -1,0 +1,126 @@
+.container {
+  margin: 8%;
+  background-color: rgb(0, 0, 0);
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: aqua;
+}
+
+.jumbotron {
+  background-color: #1c07dd;
+}
+
+.jumbotron h1 {
+  font-size: 80px;
+  margin-left: 20%;
+}
+
+.create-pizza {
+  display: none;
+}
+
+.cart {
+  display: none;
+}
+
+.order-details {
+  display: none;
+}
+
+#show-pizza-info {
+  display: none;
+}
+
+.make-header {
+  margin-bottom: 10px;
+}
+
+.pizza-img {
+  width: 80%;
+  border-radius: 5px;
+}
+.make-header h2 {
+  margin-top: 90px;
+  font-size: 45px;
+}
+
+#next {
+  background-color: #dd3c27;
+  margin: 20px 10px 10px 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #19e912 !important;
+  margin: 10px 10px 10px 5px;
+}
+
+.btn-warning {
+  margin: 10px 10px 10px 5px;
+}
+
+#cart-order {
+  cursor: pointer;
+}
+
+#cart-order li:hover {
+  text-decoration: underline;
+}
+
+#show-pizza-info {
+  margin: 10px;
+}
+
+h4 {
+  background-color: #242323;
+  color: rgb(241, 218, 86);
+  padding: 8px;
+  padding-left: 12px;
+  letter-spacing: 5px;
+  font-size: 24px;
+}
+
+.card {
+  background: blueviolet;
+}
+.card-text {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.cart .card-text {
+  padding: 15px 10px 15px 25px ;
+}
+
+.card-text h3 {
+  padding-top: 15px;
+}
+
+.card-text h5 {
+  padding-top: 40px;
+}
+
+.card-text p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: blue;
+}
+#order-details {
+  font-size: 45px;
+}
+
+.click-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: gray;
+  margin-left: 20px;
+}
+
+#next {
+  margin-right: 160%; 
+}
