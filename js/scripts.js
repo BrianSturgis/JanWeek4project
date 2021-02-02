@@ -134,7 +134,6 @@ $(document).ready(function() {
     });
 
     let newPizza = new Pizza(inputtedFirstName, inputtedLastName, inputtedSize, inputtedSizePrice);
-
     newPizza.addToppings();
     newPizza.addSizePrice(inputtedSizePrice);
     newPizza.totalPrice();
@@ -146,7 +145,6 @@ $(document).ready(function() {
     $(".total").text("$" + newOrder.totalPrice);
     $("#order-details").text("$" + newOrder.totalPrice);
     $("form#order")[0].reset();
-
     $(".cart").show();
     $(".create-pizza").hide();
 
