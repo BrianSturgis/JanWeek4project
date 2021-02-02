@@ -43,6 +43,7 @@ This is a website for a pizza company where a user can choose one or more indivi
 
 ```js
 ## SPECS
+
 Describe: Pizza();
 Test: "This will create an instance of Pizza "
 Expect:(newPizza).toEqual=new PizzaOrder("Brian","large"); Expect: newPizza.name.toEqual("Brian")
@@ -64,13 +65,12 @@ Expect: newPizza.totalPrice(1, 2).toEqual(3);
 Describe: UserOrder.addPizza()
 Test: "This will add and instance of Pizza to an instance of UserOrder"
 Expect: newOrder.order().toEqual([newPizza])
+
 ```
 
 ## Stretch goals
 - Images, styling, and custom animations used in UI.
-- Implement different behaviors/effects/images for different inputs.
 - Animated UI
-- Adobe DSP workflow fully integrated 
 
 ## Support and contact details
 email Brian Sturgis @ <sturujisu@gmail.com>
