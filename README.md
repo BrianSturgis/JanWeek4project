@@ -55,18 +55,29 @@ This is a website for a pizza company where a user can choose one or more indivi
 ```js
 ## SPECS
 
+Describe: Pizza();
+Test: "This will create an instance of Pizza "
+Expect:(newPizza).toEqual=new PizzaOrder("Brian","large"); Expect: newPizza.name.toEqual("Brian")
 
-Test: "this test should create an Order object "
-Expect:(Order).toEqual{this.pizzas{}, this.};
+Describe: Pizza.addToppings()
+Test: "This will push topping values to array"
+Expect: newPizza.pushToppings().toEqual(newPizza.toppings = [1 , 3, 4]);
+Test: "This will add topping values together"
+Expect: newPizza.addToppings().toEqual(8)
 
-Test: "this test should should create a total cost of the variables passed to it"
-Expect:(totalCost(prices)).toEqual(35);
+Describe: Pizza.addSize(num);
+Test: "This will add value to this.size"
+Expect: newOrder.addSize(5).toEqual(5); 
 
-Test: "this should apply a %18 charge to this.price"
-Expect:(this.price).toEqual(this.price /.18);
+Describe: Pizza.totalPrice();
+Test: "This will add this.toppings and this.size values."
+Expect: newPizza.totalPrice(1, 2).toEqual(3);
 
-Test: " "
-Expect:().toEqual();
+Describe: UserOrder.addPizza()
+Test: "This will add and instance of Pizza to an instance of UserOrder"
+Expect: newOrder.order().toEqual([newPizza])
+
+
 ```
 
 
