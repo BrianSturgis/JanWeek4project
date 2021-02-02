@@ -33,14 +33,18 @@ function Address (name,address,phoneNumber) {
 
 
 $(document).ready(function() {
-  $("form#toppingSelections").submit(function(event) {
+  $("#questions").submit(function(event) {
     event.preventDefault();
-    $("#message-price").show();
+    console.log("hi");
     $("input:checkbox[name=tops]:checked").each(function() {
       const toppings = $(this).val();
-      $('##message-price').append(toppings + "<br>");
+      $('#message-price').append(toppings + "<br>");
+      console.log(toppings);
+      console.log("hi");
     });
     $('#message-price').hide();
+
+    
   });
 });
 
