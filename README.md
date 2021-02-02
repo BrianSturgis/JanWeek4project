@@ -1,7 +1,6 @@
 
 <div align="center">
-<img src="img/.jpg" width="auto" height="auto" >
-<img src="img/.jpg" width="auto" height="auto" >
+<img src="img/capture.jpg" width="auto" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Jan 22nd, v1.0 2021</p>
@@ -9,11 +8,7 @@
 
 ## Application Description
 
-IN ITS CURRENT STATE THIS PROGRAM IS NOT FULLY FUNCTIONAL
-the logic is in place but i am have a hard time collecting inputs using checkboxes and i would rather use those to select toppings.   This project is by no means in any state of completion.
-
-
-This is a weekly project 
+This is a weekly project for the January Cohort at Epicodus.
 This is a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
 
 ## The projects objectives were to complete the following (MVP)
@@ -23,11 +18,9 @@ This is a website for a pizza company where a user can choose one or more indivi
 - Style the application with CSS and images.
 - Allow users to order more than one pizza with different toppings.
 - Display the list of pizzas ordered as links that can be clicked for details.
-- Offer a delivery option that then requires address information.
 
 ## Known Bugs
-- html and js files names "test" in project until completion
-- app is not functional on the front end but the logic has obtained all of its MVP goals
+- button placement needs work and some of them are too big
 
 ## Setup/Installation Requirements
 - repository location (https://github.com/BrianSturgis/JanWee4Project)
@@ -45,12 +38,7 @@ This is a website for a pizza company where a user can choose one or more indivi
 - using git commands clone to local repo or click "download" and unpack on machine
 
 ## GIT HUB PAGES 
-- (https://briansturgis.github.io/JanWeek3Project/)
-
-
-
-
-
+- (https://briansturgis.github.io/JanWeek4Project/)
 
 ```js
 ## SPECS
@@ -76,10 +64,7 @@ Expect: newPizza.totalPrice(1, 2).toEqual(3);
 Describe: UserOrder.addPizza()
 Test: "This will add and instance of Pizza to an instance of UserOrder"
 Expect: newOrder.order().toEqual([newPizza])
-
-
 ```
-
 
 ## Stretch goals
 - Images, styling, and custom animations used in UI.
