@@ -121,8 +121,8 @@ $(document).ready(function() {
     event.preventDefault();
     const inputtedFirstName = $("input#first-name").val();
     const inputtedLastName = $("input#last-name").val();
-    const sizeinput = $("input[name='size']:checked").val();
-    const splitArr = sizeinput.split(" ");
+    const sizeInput = $("input[name='size']:checked").val();
+    const splitArr = sizeInput.split(" ");
     const inputtedSize = splitArr[0];
     const inputtedSizePrice = parseFloat(splitArr[1]);
   
